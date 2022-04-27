@@ -7,7 +7,6 @@ import wd4 from './assets/wd4.jpg'
 import nodeVSPHP from './assets/nodePHP.jpeg'
 import './styles/Works.scss'
 
-
 const Blogs = () => {
     return (
         <div className='works'>
@@ -16,14 +15,14 @@ const Blogs = () => {
 
                 <div className="cards">
                     <img src={react} alt="" />
-                    <a href='https://education.students-to-students.com/register.php' target="_blank">
+                    <a href='#'>
                     <button>Frontend Tchnologies comparison</button>
                     </a>
                 </div>
 
                 <div className="cards">
                     <img src={nodeVSPHP} alt="" />
-                    <a href='https://jigga.tikurwuha.com/index.php' target="_blank">
+                    <a href='#' >
                     <button>Backend Tchnoloiges comparison</button>
                     </a>
                    
@@ -31,28 +30,28 @@ const Blogs = () => {
 
                 <div className="cards">
                    <img src={wd} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See family in law</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd2} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>Tech benfits in the school</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd3} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See Work</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd4} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See Work</button>
                     </a>
                 </div>

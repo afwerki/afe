@@ -7,7 +7,7 @@ import About from './components/About'
 import Pages from './components/Pages'
 import Portifolio from './components/Portfolio'
 import Blog from './components/Blog'
-import Works from './components/Works';
+import Footer from './components/Footer';
 
 
 ReactDOM.render(
@@ -19,7 +19,7 @@ ReactDOM.render(
           <Route path = '/Pages' element = {<Pages/>}/>
           <Route path = '/Portifolio' element = {<Portifolio/>}/>
           <Route path = '/Blog' element = {<Blog/>}/>
-          <Route path='/Works'element = {<Works/>}/>
+          <Route path='/Footer'element = {<Footer/>}/>
         </Routes>
     </Router>,
   document.getElementById('root')

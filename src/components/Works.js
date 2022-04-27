@@ -1,16 +1,20 @@
+import { ArrowBack } from '@material-ui/icons'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import wd from './assets/wd.jpg'
 import wd2 from './assets/wd2.jpg'
 import wd3 from './assets/wd3.jpg'
 import wd4 from './assets/wd4.jpg'
-import students_support from './assets/S_TO_S_system.png'
-import school from './assets/school.png'
+import students_support from './assets/school.png'
+import school from './assets/StoS.png'
 import './styles/Works.scss'
 
 
 const Works = () => {
     return (
+        <div>
         <div className='works'>
+            
             <div className="work__section">
 
 
@@ -31,34 +35,34 @@ const Works = () => {
 
                 <div className="cards">
                    <img src={wd} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See family in law</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd2} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See ADAUK Charity project</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd3} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See Work</button>
                     </a>
                 </div>
 
                 <div className="cards">
                    <img src={wd4} alt="" />
-                   <a href='Projects'>
+                   <a href='#'>
                     <button>See Work</button>
                     </a>
                 </div>
-               
-
             </div>
+        </div>
+
         </div>
     )
 }

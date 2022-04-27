@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main'
 import Section from './components/Section'
 import Works from './components/Works';
-import Techs_used from './components/Techs_used'
+import Footer from  './components/Footer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Main/>
       <Section/>
       <Works/>
-      <Techs_used/>
+      <Footer/>
     </div>
   );
 }

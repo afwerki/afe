@@ -2,6 +2,7 @@ import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounde
 import React, { useState } from 'react'
 import './styles/Main.scss'
 import man from './assets/drunk_me_crope.jpg'
+import Portifolio from './Portfolio';
 
 const Main = () => {
     return (
@@ -15,6 +16,7 @@ const Main = () => {
                             <p>Hey There !</p>
                             <h1>I am  Afwerki Ghirmay</h1>
                             <p>Software engineering</p>
+
 
                             <div className="icons">
                             <a href="https://twitter.com/afex093041511" target="_blank">
@@ -33,14 +35,14 @@ const Main = () => {
                                 </a>
                             </div>
 
-                    <div className="buttons">
-                        <a href='Works'>
+                    {/* <div className="buttons">
+                        <a href='Portfolio'>
                         <button>See Projects</button>
                         </a>
                         <a href='contact'>
                         <button>Contact me</button>
                         </a>
-                    </div>
+                    </div> */}
                     </div>
                 </div>
 

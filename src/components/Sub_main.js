@@ -6,8 +6,6 @@ const Sub_main = () => {
     return (
         <div className='main'>
             <div className='main__container'>
-
-
                 <div className="main__content">
 
                     <div className="text">
